@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
 * {
   font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
   color: white;
@@ -9,7 +10,7 @@ body {
 }
 .logo{
   text-align: center;
-  font-family: 'Teko', sans-serif;
+  font-family: 'Rubik Vinyl', cursive;
   font-size: 2.5rem;
 }
 .wrapper {
