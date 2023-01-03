@@ -1,26 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Rubik+Vinyl&display=swap');
 * {
-  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+ font-family: 'Kaushan Script', cursive;
   color: white;
 }
 
 body {
-  background: #8990ec;
+  background: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .logo{
   text-align: center;
   font-family: 'Rubik Vinyl', cursive;
   font-size: 2.5rem;
+
 }
 .wrapper {
   height: 405px;
   width: 360px;
   color: white;
-  background: #272639;
-  border-radius: 1rem;
+  background: #2726396b;
+  border-radius: 4px;
   padding: 1.2rem;
   margin: 10px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, #00b3f3 0px 30px 60px -30px;
+  
 }
 
 #topContainer {
@@ -38,7 +44,7 @@ body {
 
 .inputContainer {
   background: #353959;
-  border-radius: 1.4rem;
+  border-radius: 4px;
   padding: 0 0.8rem;
   display: flex;
   align-items: center;
